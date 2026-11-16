@@ -1,0 +1,17 @@
+
+{
+  "name": "readers-haven-library",
+  "version": "1.0.0",
+  "description": "Readers' Haven Public Library Website",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/*.html --dist-dir dist --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
